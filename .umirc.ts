@@ -6,7 +6,7 @@ export default defineConfig({
   title: 'yy',
   mode: 'site',
   base: isProd ? '/blog' : '/',
-  publicPath: isProd ? '/blog' : '/',
+  publicPath: isProd ? '/blog/' : '/',
   exportStatic: {},
   favicon: '/images/avatar.jpg',
   logo: '/images/avatar.jpg',
