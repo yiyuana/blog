@@ -1,8 +1,13 @@
 import { defineConfig } from 'dumi';
 
+const isProd = process.env.NODE_ENV === 'production';
+
 export default defineConfig({
   title: 'yy',
   mode: 'site',
+  base: isProd ? '/blog' : '/',
+  publicPath: isProd ? '/blog' : '/',
+  exportStatic: {},
   favicon: '/images/avatar.jpg',
   logo: '/images/avatar.jpg',
   locales: [
