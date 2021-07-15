@@ -1,7 +1,7 @@
 ---
 hero:
   title: blog
-  image: ./public/images/avatar.jpg
+  image: ./images/avatar.jpg
   desc: 这里是描述些什么
   actions:
     - text: Getting Started

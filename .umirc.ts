@@ -8,8 +8,8 @@ export default defineConfig({
   base: isProd ? '/blog' : '/',
   publicPath: isProd ? '/blog/' : '/',
   exportStatic: {},
-  favicon: '/images/avatar.jpg',
-  logo: '/images/avatar.jpg',
+  favicon: './images/avatar.jpg',
+  logo: './images/avatar.jpg',
   locales: [
     ['zh-CN', '中文'],
     ['en-US', 'English'],
